@@ -1,0 +1,85 @@
+.margin {
+    margin: 48px;
+}
+
+.center {
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    display: flex;
+}
+
+.bread-crumbs {
+    background-color: black;
+    position: fixed;
+    padding: 16px;
+    border-radius: 16px;
+    color: white;
+}
+
+.left-margin {
+    margin-left: 48px;
+}
+
+#bgVideo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.white-font {
+    color: white
+}
+
+.white-black {
+    background-color: white;
+    color: black;
+    padding: 16px;
+    border-radius: 10px;
+}
+
+/* remove underline + blue color */
+.card-link {
+    text-decoration: none;
+    color: inherit;
+}
+.card-link:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* smooth animation */
+.card-link .card {
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+/* white glow on hover */
+.card-link:hover .card {
+    transform: translateY(-6px);
+    box-shadow: 0 0 25px rgb(255, 255, 255);
+}
+
+/* click animation */
+.card-link:active .card {
+    transform: scale(0.97);
+}
+
+.video-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.video {
+    width: 850px;
+}
+
+.vt323-regular {
+  font-family: "VT323", monospace;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 26px;
+}
